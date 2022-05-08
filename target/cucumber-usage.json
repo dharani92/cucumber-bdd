@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^user clicks on \"Add a new computer\" button$",
+    "steps": [
+      {
+        "name": "user clicks on \"Add a new computer\" button",
+        "aggregatedDurations": {
+          "average": 0.293220696,
+          "median": 0.293220696
+        },
+        "durations": [
+          {
+            "duration": 0.293220696,
+            "location": "Crud.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^adds new computer details$",
+    "steps": [
+      {
+        "name": "adds new computer details",
+        "aggregatedDurations": {
+          "average": 0.859407803,
+          "median": 0.859407803
+        },
+        "durations": [
+          {
+            "duration": 0.859407803,
+            "location": "Crud.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on homepage$",
+    "steps": [
+      {
+        "name": "user is on homepage",
+        "aggregatedDurations": {
+          "average": 2.489310489,
+          "median": 2.489310489
+        },
+        "durations": [
+          {
+            "duration": 2.489310489,
+            "location": "Crud.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^success message is displayed$",
+    "steps": [
+      {
+        "name": "success message is displayed",
+        "aggregatedDurations": {
+          "average": 0.189904248,
+          "median": 0.189904248
+        },
+        "durations": [
+          {
+            "duration": 0.189904248,
+            "location": "Crud.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]
