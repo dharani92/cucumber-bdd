@@ -1,9 +1,0 @@
-Feature: Check CRUD operations
-  To verify whether all the basic Operations are working as required
-
-  @Regression
-  Scenario: Create a new Computer                   [90m# Crud.feature:5[0m
-    [32mGiven [0m[32muser is on homepage[0m                       [90m# Tests.user_is_on_homepage()[0m
-    [32mWhen [0m[32muser clicks on "Add a new computer" button[0m [90m# Tests.user_clicks_on_add_new_computer()[0m
-    [32mAnd [0m[32madds new computer details[0m                   [90m# Tests.user_enters_username_and_Password()[0m
-    [32mThen [0m[32msuccess message is displayed[0m               [90m# Tests.success_message_is_displayed()[0m
