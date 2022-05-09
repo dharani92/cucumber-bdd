@@ -4,11 +4,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -60,9 +58,22 @@ public class Tests {
         driver.findElement(By.xpath("//*[@id=\"main\"]/form/div/input")).click();
     }
 
+    @When("^user deletes computer$")
+    public void delete_computer() throws Throwable {
+        driver.findElement(By.xpath("//*[@id=\"main\"]/form[2]/input")).click();
+    }
+
     @Then("^update success message is displayed for \"([^\"]*)\" computer$")
     public void update_success_message_is_displayed(String computerName) throws Throwable {
         String exp_message = "Done ! Computer "+computerName+ " has been updated";
+        String actual = driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]")).getText();
+        Assert.assertEquals(exp_message, actual);
+        driver.quit();
+    }
+
+    @Then("^delete success message is displayed for \"([^\"]*)\" computer$")
+    public void delete_success_message_is_displayed(String computerName) throws Throwable {
+        String exp_message = "Done ! Computer "+computerName+ " has been deleted";
         String actual = driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]")).getText();
         Assert.assertEquals(exp_message, actual);
         driver.quit();
