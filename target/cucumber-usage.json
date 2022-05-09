@@ -1,0 +1,176 @@
+[
+  {
+    "source": "^user clicks on \"Add a new computer\" button$",
+    "steps": [
+      {
+        "name": "user clicks on \"Add a new computer\" button",
+        "aggregatedDurations": {
+          "average": 0.265961121,
+          "median": 0.265961121
+        },
+        "durations": [
+          {
+            "duration": 0.265961121,
+            "location": "Crud.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^delete success message is displayed for \"([^\"]*)\" computer$",
+    "steps": [
+      {
+        "name": "delete success message is displayed for \"ACE\" computer",
+        "aggregatedDurations": {
+          "average": 0.137734673,
+          "median": 0.137734673
+        },
+        "durations": [
+          {
+            "duration": 0.137734673,
+            "location": "Crud.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user deletes computer$",
+    "steps": [
+      {
+        "name": "user deletes computer",
+        "aggregatedDurations": {
+          "average": 0.376160412,
+          "median": 0.376160412
+        },
+        "durations": [
+          {
+            "duration": 0.376160412,
+            "location": "Crud.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^adds new computer details$",
+    "steps": [
+      {
+        "name": "adds new computer details",
+        "aggregatedDurations": {
+          "average": 0.906526819,
+          "median": 0.906526819
+        },
+        "durations": [
+          {
+            "duration": 0.906526819,
+            "location": "Crud.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on homepage$",
+    "steps": [
+      {
+        "name": "user is on homepage",
+        "aggregatedDurations": {
+          "average": 2.674488308,
+          "median": 2.404605111
+        },
+        "durations": [
+          {
+            "duration": 2.404605111,
+            "location": "Crud.feature:6"
+          },
+          {
+            "duration": 1.870588236,
+            "location": "Crud.feature:13"
+          },
+          {
+            "duration": 3.748271579,
+            "location": "Crud.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on \"([^\"]*)\" computer$",
+    "steps": [
+      {
+        "name": "user clicks on \"ACE\" computer",
+        "aggregatedDurations": {
+          "average": 0.82081144,
+          "median": 0.82081144
+        },
+        "durations": [
+          {
+            "duration": 0.835190061,
+            "location": "Crud.feature:14"
+          },
+          {
+            "duration": 0.80643282,
+            "location": "Crud.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^update success message is displayed for \"([^\"]*)\" computer$",
+    "steps": [
+      {
+        "name": "update success message is displayed for \"ACE\" computer",
+        "aggregatedDurations": {
+          "average": 0.109477821,
+          "median": 0.109477821
+        },
+        "durations": [
+          {
+            "duration": 0.109477821,
+            "location": "Crud.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user updates computer details$",
+    "steps": [
+      {
+        "name": "user updates computer details",
+        "aggregatedDurations": {
+          "average": 0.474615859,
+          "median": 0.474615859
+        },
+        "durations": [
+          {
+            "duration": 0.474615859,
+            "location": "Crud.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^success message is displayed$",
+    "steps": [
+      {
+        "name": "success message is displayed",
+        "aggregatedDurations": {
+          "average": 0.181254908,
+          "median": 0.181254908
+        },
+        "durations": [
+          {
+            "duration": 0.181254908,
+            "location": "Crud.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

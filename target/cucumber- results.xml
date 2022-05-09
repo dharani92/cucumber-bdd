@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="12.116819">
+    <testcase classname="Check CRUD operations" name="Create a new Computer" time="3.758348">
+        <system-out>
+            <![CDATA[Given user is on homepage...................................................passed
+When user clicks on "Add a new computer" button.............................passed
+And adds new computer details...............................................passed
+Then success message is displayed...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check CRUD operations" name="Update a Computer" time="3.289872">
+        <system-out>
+            <![CDATA[Given user is on homepage...................................................passed
+When user clicks on "ACE" computer..........................................passed
+And user updates computer details...........................................passed
+Then update success message is displayed for "ACE" computer.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check CRUD operations" name="Delete a Computer" time="5.068599">
+        <system-out>
+            <![CDATA[Given user is on homepage...................................................passed
+When user clicks on "ACE" computer..........................................passed
+And user deletes computer...................................................passed
+Then delete success message is displayed for "ACE" computer.................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

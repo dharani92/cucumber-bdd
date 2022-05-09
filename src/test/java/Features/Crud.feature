@@ -14,3 +14,10 @@ Feature: Check CRUD operations
       When user clicks on "ACE" computer
       And user updates computer details
       Then update success message is displayed for "ACE" computer
+
+  @Regression
+  Scenario: Delete a Computer
+    Given user is on homepage
+    When user clicks on "ACE" computer
+    And user deletes computer
+    Then delete success message is displayed for "ACE" computer
